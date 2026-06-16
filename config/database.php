@@ -3,11 +3,11 @@
 declare(strict_types=1);
 
 $dbConfig = [
-    'host' => '127.0.0.1',
+    'host' => 'sql311.infinityfree.com',
     'port' => '3306',
-    'database' => 'pos_kasir_tailadmin',
-    'username' => 'root',
-    'password' => '',
+    'database' => 'if0_42198835_pos_kasir_tailadmin',
+    'username' => 'if0_42198835',
+    'password' => 'YBqJBp7L8Ca',
     'charset' => 'utf8mb4',
 ];
 
