@@ -3,6 +3,10 @@ layer(base);
 
 @import "tailwindcss";
 
+@source "../../*.php";
+@source "../../app/**/*.php";
+@source "../../pages/**/*.php";
+
 @custom-variant dark (&:is(.dark *));
 
 @theme {
