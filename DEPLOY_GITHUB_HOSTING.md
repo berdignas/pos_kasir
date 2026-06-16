@@ -2,16 +2,13 @@
 
 ## 1. Push Ke GitHub
 
-Proyek ini awalnya diambil dari template TailAdmin, jadi remote `origin` bawaan mengarah ke repo TailAdmin. Jangan push ke remote TailAdmin.
+Proyek ini awalnya diambil dari template TailAdmin. Remote bawaan TailAdmin sudah diamankan menjadi `tailadmin-upstream`, jadi sekarang tinggal menambahkan remote GitHub milik sendiri sebagai `origin`.
 
 Langkah aman:
 
 ```powershell
 cd C:\laragon\www\pos-kasir-tailadmin
-git remote rename origin tailadmin-upstream
 git remote add origin https://github.com/USERNAME/NAMA-REPO.git
-git add .
-git commit -m "Initial POS kasir app"
 git push -u origin main
 ```
 
@@ -25,6 +22,12 @@ NAMA-REPO
 dengan akun dan nama repo GitHub sendiri.
 
 Jika repo GitHub masih kosong, jangan centang `Add README`, karena proyek ini sudah punya file sendiri.
+
+Commit aplikasi sudah dibuat secara lokal dengan pesan:
+
+```text
+Build POS cashier app with PHP and MySQL
+```
 
 ## 2. Catatan Penting Tentang Netlify
 
